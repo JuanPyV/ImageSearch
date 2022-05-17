@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image search</title>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="search">
+            
+            <form action="/" method="post" class="form"> 
+                   
+                <input type="radio" id="imageId" name="imageOpt" value="id" checked>
+                <label for="imageId">Id</label><br> 
+                <input type="radio" id="imageTag" name="imageOpt" value="tag"> 
+                <label for="imageTag">Tag</label><br>
+                <div class="buttonContainer">
+                    <input type="text" class="searchTerm" id="searchTerm" placeholder="What are you looking for?" name="search_term" required>               
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>                         
+                
+            </form>
+
+        </div>
+     </div>
+
+</body>
+    
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+
+</html>
+
